@@ -1,0 +1,8 @@
+{
+  "name": "workers-rate-limiting-python",
+  "main": "src/entry.py",
+  "compatibility_date": "2026-09-30",
+  "compatibility_flags": ["python_workers"],
+  "observability": { "enabled": true },
+  "ratelimits": [{ "name": "RATE_LIMITER", "namespace_id": "13004", "simple": { "limit": 5, "period": 10 } }]
+}

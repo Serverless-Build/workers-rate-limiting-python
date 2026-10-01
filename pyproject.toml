@@ -1,0 +1,8 @@
+[project]
+name = "workers-rate-limiting-python"
+version = "1.0.0"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = ["workers-py>=1.17.5", "workers-runtime-sdk"]
